@@ -1,0 +1,38 @@
+.bodyBar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.percentageValue {
+    font-family: San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: bold;
+    color: #727273;
+}
+
+.containerBar { 
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #edede9;
+}
+
+.barColor{
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f3e99;
+}
+
+.imgBar {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    right: -20px;
+}
