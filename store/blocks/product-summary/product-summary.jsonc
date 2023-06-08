@@ -24,7 +24,8 @@
       "srcImage": "https://cybelar.vtexassets.com/assets/vtex/assets-builder/cybelar.store-theme/3.0.7/footer/agencia-n1___a3c04bcd5595f82f476c039e7d59bbad.svg",
       "activeImage": true,
       "activePercentageValue": true,
-      "text": "Vendidos"
+      "text": "Vendidos",
+      "sensoPercentagem": true
     }
   },
 

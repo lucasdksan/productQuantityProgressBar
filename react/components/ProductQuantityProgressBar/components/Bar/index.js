@@ -2,14 +2,11 @@ import styles from "./styles.css";
 
 const Bar = ({ widthBar, srcImage, activeImage, activePercentageValue, percentageValue, text })=>{
     return(
-        <div className={styles["bodyBar"]}>
-            { activePercentageValue &&  <span className={styles["percentageValue"]}>{percentageValue.toFixed(2)}% {text && text}</span> }
-            <div className={styles["containerBar"]}>
-                <span className={styles["barColor"]} style={{ width:`${widthBar}%` }}>
-                    {
-                        activeImage &&
-                        <img className={styles["imgBar"]} src={srcImage}/>
-                    }
+        <div className={styles["body__bar"]}>
+            { activePercentageValue &&  <span className={styles["percentage__value"]}>{percentageValue.toFixed(2)}% {text && text}</span> }
+            <div className={styles["container__bar"]}>
+                <span className={styles["bar__color"]} style={{ width:`${widthBar}%` }}>
+                    { activeImage && <img className={styles["img__bar"]} src={srcImage}/> }
                 </span>
             </div>
         </div>
